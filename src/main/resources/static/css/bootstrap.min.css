@@ -49,7 +49,7 @@ html {
 }
 
 @-ms-viewport {
-    width: device-width
+    width: devi  ce-width
 }
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -221,6 +221,11 @@ label {
     display: inline-block;
     margin-bottom: .5rem
 }
+label1 {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: 18rem;
+}
 
 button {
     border-radius: 0
@@ -329,8 +334,10 @@ template {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
+    margin-top: 1rem;
     font-family: inherit;
     font-weight: 500;
+
     line-height: 1.2;
     color: inherit
 }
@@ -2505,7 +2512,7 @@ select.form-control:focus::-ms-value {
     user-select: none;
     border: 1px solid transparent;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
@@ -3790,8 +3797,10 @@ tbody.collapse.show {
 
 .nav-link {
     display: block;
-    padding: .5rem 1rem
+    padding: .5rem 1rem;
+    margin-left: -5rem;
 }
+
 
 .nav-link:focus, .nav-link:hover {
     text-decoration: none
@@ -3808,7 +3817,6 @@ tbody.collapse.show {
 .nav-tabs .nav-item {
     margin-bottom: -1px
 }
-
 .nav-tabs .nav-link {
     border: 1px solid transparent;
     border-top-left-radius: .25rem;
@@ -7594,6 +7602,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 
 .mt-5, .my-5 {
     margin-top: 3rem !important
+    margin-left: 100rem;
 }
 
 .mr-5, .mx-5 {
@@ -8907,7 +8916,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .text-white {
-    color: black;
+    color: white;
 }
 
 .text-primary {
