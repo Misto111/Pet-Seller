@@ -29,8 +29,8 @@ spring:
       filter:
         enabled: true
 petsSeller:
- default.admin.pass: ${DEFAULT_ADMIN_PASS:topsecret}
- remember.me.key: ${REMEMBER_ME_KEY:topsecret}
+ default.admin.pass: ${DEFAULT_ADMIN_PASS}
+ remember.me.key: ${REMEMBER_ME_KEY}
 
 logging:
   level:
@@ -52,8 +52,8 @@ mail:
     petsSeller: "pet@seller.com"
     host: localhost
     port: 1025
-    username: ${MAIL_USER:12345}
-    password: ${MAIL_PASSWORD:12345}
+    username: ${MAIL_USER}
+    password: ${MAIL_PASSWORD}
 
 
 
